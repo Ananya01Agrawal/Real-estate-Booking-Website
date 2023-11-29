@@ -1,0 +1,23 @@
+.uploadWrapper{
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.uploadZone{
+    width: 80%;
+    height: 25rem;
+    border: 2px dashed grey;
+    cursor: pointer;
+}
+.uploadedImage{
+    width: 80%;
+    height: 25rem;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.uploadedImage>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,71 @@
+.property-container{
+    gap: 2rem;
+    position: relative;
+}
+
+.property-container .like{
+    position: absolute;
+    top: 3rem;right: 3rem;
+    cursor: pointer;
+}
+
+
+.property-container>img{
+    align-self: center;
+    max-height: 35rem;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.property-details{
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.property-details>div{
+    flex: 1;
+    gap: 1.5rem;
+}
+
+.property-details .left .head{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.facilities{
+    gap: 1rem;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.facility{
+    gap: 0.5rem;
+}
+
+.property-details .button{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.property-details .button:hover{
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 700px) {
+    .property-container>div{
+        flex-direction: column;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .facilities{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .property-details>div{
+        width: 100%;
+    }
+}
