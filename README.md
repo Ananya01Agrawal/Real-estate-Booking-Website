@@ -2,7 +2,7 @@
 
 
 
-Alpha Estate is a modern real estate web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a platform for users to search, list, and explore various properties, whether for sale or rent. The application offers a user-friendly interface, advanced search options, and a seamless user experience.
+Homyz is a modern real estate web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a platform for users to search, list, book,  and explore various properties, whether for sale or rent. The application offers a user-friendly interface, advanced search options, and a seamless user experience.
 
 
 
@@ -16,6 +16,12 @@ Alpha Estate is a modern real estate web application built with the MERN (MongoD
 
 - **Authentication**: Secure user registration and login functionality with Google OAuth.
 
+- **Book your Visit**: you can also select the date at which you want to visit the site.
+
+- **Showing Map of the Place**: It also show the map of the place.
+
+- **Mark as Favourites**: you can also mark as favourite the property which you like.
+
 
 
 ## Installation
@@ -23,12 +29,12 @@ Alpha Estate is a modern real estate web application built with the MERN (MongoD
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/alphadev97/AlphaEstate.git
+   git clone https://github.com/Ananya01Agrawal/Real-estate-Booking-Website.git
    ```
 
 2. Change into the project directory:
    ```bash
-   cd AlphaEstate
+   cd Real-estate-Booking-Website
    ```
 3. Install server dependencies:
 
@@ -50,13 +56,7 @@ Alpha Estate is a modern real estate web application built with the MERN (MongoD
    JWT_SECRET = "JWTSECRET"
    ```
 
-6. Create a .env file in the ./client directory with your configuration settings.
-
-   ```bash
-   VITE_FIREBASE_API_KEY = "ADD YOUR FIREBASE KEY"
-   ```
-
-7. Start the development server:
+6. Start the development server:
 
    ```bash
    npm run dev
