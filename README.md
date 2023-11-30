@@ -19,9 +19,11 @@ Homyz is a modern real estate web application built with the MERN (MongoDB, Expr
 
 - **Book your Visit**: you can also select the date at which you want to visit the site.
 
-- **Showing Map of the Place**: It also show the map of the place.
+- **Maps and Location Information**: Integrating maps and providing location information is crucial for real estate and hospitality websites. Interactive maps can show the location of properties, nearby amenities (e.g., schools, restaurants, hospitals), transportation options, and other points of interest. This helps users understand the neighborhood and make informed decisions.
 
 - **Mark as Favourites**: you can also mark as favourite the property which you like.
+
+- **Property Details and Descriptions**: Each property listing should have comprehensive details and descriptions, including property features, room dimensions, amenities, nearby attractions, and any unique selling points. High-quality images and virtual tours can provide a more immersive experience for users.
 
 - ![image](https://github.com/Ananya01Agrawal/Real-estate-Booking-Website/assets/99130567/a49e7fd3-68cf-4e35-ab2a-d88d279fb5a1)
 
