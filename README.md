@@ -47,27 +47,27 @@ Homyz is a modern real estate web application built with the MERN (MongoDB, Expr
    
 3. Install server dependencies:
 
-   bash
+   
    npm install
    
 
 4. Install client dependencies:
 
-   bash
+   
    cd client
    npm install
    
 
 5. Create a .env file in the root directory with your configuration settings.
 
-   bash
+
    MONGO = "MONGODB URI"
    JWT_SECRET = "JWTSECRET"
    
 
 6. Start the development server:
 
-   bash
+   
    npm run dev
    
 
